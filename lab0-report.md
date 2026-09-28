@@ -100,7 +100,7 @@ git merge feature
 
 Git 报告 `CONFLICT (content)`，`git status --short` 显示 `UU main.c`。冲突现场如下：
 
-![Git 合并冲突终端记录](evidence/merge-conflict.svg)
+![Git 合并冲突终端记录](evidence/merge-conflict.png)
 
 我阅读冲突标记后，决定同时保留两个分支的有效信息，并删除 `<<<<<<<`、`=======`、`>>>>>>>` 标记。之后执行：
 
@@ -121,7 +121,7 @@ make clean
 
 编译过程启用了 `-Wall -O2`，无警告、无错误；程序正常输出合并后的两条信息，清理后未残留二进制文件：
 
-![编译与运行终端记录](evidence/build-test.svg)
+![编译与运行终端记录](evidence/build-test.png)
 
 ## 6. 结果验证
 
