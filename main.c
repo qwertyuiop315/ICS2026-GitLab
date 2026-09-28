@@ -2,6 +2,6 @@
 
 int main()
 {
-    printf("ICS Lab 0: Git makes changes traceable.\n");
+    printf("main branch: Git records a clear project history.\n");
     return 0;
 }
