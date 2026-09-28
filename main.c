@@ -2,6 +2,6 @@
 
 int main()
 {
-    // @TODO: print a sentence you want.
-    printf("Hello, world!\n");
+    printf("ICS Lab 0: Git makes changes traceable.\n");
+    return 0;
 }
