@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650">
+  <rect width="1200" height="650" rx="12" fill="#0d1117"/>
+  <rect width="1200" height="44" rx="12" fill="#161b22"/>
+  <circle cx="24" cy="22" r="7" fill="#ff5f56"/>
+  <circle cx="48" cy="22" r="7" fill="#ffbd2e"/>
+  <circle cx="72" cy="22" r="7" fill="#27c93f"/>
+  <text x="600" y="28" text-anchor="middle" fill="#c9d1d9" font-family="monospace" font-size="16">WSL · Git merge conflict</text>
+  <g fill="#c9d1d9" font-family="monospace" font-size="18">
+    <text x="28" y="82" fill="#7ee787">$ git merge feature</text>
+    <text x="28" y="116">Auto-merging main.c</text>
+    <text x="28" y="150" fill="#ff7b72">CONFLICT (content): Merge conflict in main.c</text>
+    <text x="28" y="184">Automatic merge failed; fix conflicts and then commit the result.</text>
+    <text x="28" y="232" fill="#7ee787">$ git status --short</text>
+    <text x="28" y="266" fill="#ff7b72">UU main.c</text>
+    <text x="28" y="314" fill="#7ee787">$ sed -n '1,80p' main.c</text>
+    <text x="28" y="348">#include &lt;stdio.h&gt;</text>
+    <text x="28" y="382">int main()</text>
+    <text x="28" y="416">{</text>
+    <text x="28" y="450" fill="#ff7b72">&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD</text>
+    <text x="28" y="484">    printf("main branch: Git records a clear project history.\n");</text>
+    <text x="28" y="518" fill="#d2a8ff">=======</text>
+    <text x="28" y="552">    printf("feature branch: Git supports isolated development.\n");</text>
+    <text x="28" y="586" fill="#79c0ff">&gt;&gt;&gt;&gt;&gt;&gt;&gt; feature</text>
+    <text x="28" y="620">}</text>
+  </g>
+</svg>

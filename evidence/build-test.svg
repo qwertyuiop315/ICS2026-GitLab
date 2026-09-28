@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420">
+  <rect width="1200" height="420" rx="12" fill="#0d1117"/>
+  <rect width="1200" height="44" rx="12" fill="#161b22"/>
+  <circle cx="24" cy="22" r="7" fill="#ff5f56"/>
+  <circle cx="48" cy="22" r="7" fill="#ffbd2e"/>
+  <circle cx="72" cy="22" r="7" fill="#27c93f"/>
+  <text x="600" y="28" text-anchor="middle" fill="#c9d1d9" font-family="monospace" font-size="16">WSL · Build and run verification</text>
+  <g fill="#c9d1d9" font-family="monospace" font-size="18">
+    <text x="28" y="86" fill="#7ee787">$ make</text>
+    <text x="28" y="124">gcc -Wall -O2 -c main.c -o main.o</text>
+    <text x="28" y="162">gcc -Wall -O2 -o main main.o</text>
+    <text x="28" y="210" fill="#7ee787">$ ./main</text>
+    <text x="28" y="248">main branch: Git records a clear project history.</text>
+    <text x="28" y="286">feature branch: Git supports isolated development.</text>
+    <text x="28" y="334" fill="#7ee787">$ make clean</text>
+    <text x="28" y="372">rm -f main.o main</text>
+  </g>
+</svg>
